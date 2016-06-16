@@ -5,7 +5,7 @@ resources:
     source:
       name: "shiphitchcock2test/docker-node-test"
       isPull: false
-      tag: latest.20
+      tag: "master.2"
 
 
   - name: gke-cluster-img44
