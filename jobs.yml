@@ -1,0 +1,12 @@
+jobs:
+  - name: gke-vr-job33
+    type: manifest
+    steps:
+      - GET: gke-dockimg33
+      
+
+  - name: gke-vr-job44
+    type: gkeDeploy
+    steps:
+      - GET: gke-vr-job1
+      - GET: gke-cluster-img44
