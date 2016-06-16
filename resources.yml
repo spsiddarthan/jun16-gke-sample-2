@@ -1,0 +1,16 @@
+resources:
+  - name: gke-dockimg33
+    type: image
+    integration: jun14-dock-integ
+    source:
+      name: "shiphitchcock2test/docker-node-test"
+      isPull: false
+      tag: latest.20
+
+
+  - name: gke-cluster-img44
+    type: gkeCluster
+    integration: gke-integ-16jun
+    source:
+      name: "cluster-vidya"
+      region: "us-central1-b"
