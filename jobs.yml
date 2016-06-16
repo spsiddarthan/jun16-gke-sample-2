@@ -8,5 +8,5 @@ jobs:
   - name: gke-vr-job44
     type: gkeDeploy
     steps:
-      - GET: gke-vr-job1
+      - GET: gke-vr-job33
       - GET: gke-cluster-img44
