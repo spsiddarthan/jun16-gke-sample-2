@@ -1,7 +1,7 @@
 resources:
   - name: gke-dockimg33
     type: image
-    integration: jun14-dock-integ
+    integration: docker-int
     source:
       name: "shiphitchcock2test/docker-node-test"
       isPull: false
@@ -10,7 +10,7 @@ resources:
 
   - name: gke-cluster-img44
     type: gkeCluster
-    integration: gke-integ-16jun
+    integration: gke
     source:
-      name: "cluster-vidya"
+      name: "sid-test-cluster-1"
       region: "us-central1-b"
