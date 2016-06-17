@@ -6,6 +6,14 @@ resources:
       name: "shiphitchcock2test/docker-node-test"
       isPull: false
       tag: "master.2"
+  
+  - name: rsc2-jun17
+    type: image
+    integration: docker-int
+    source:
+      name: "nginx"
+      isPull: false
+      tag: "latest"    
 
 
   - name: gke-cluster-img44
