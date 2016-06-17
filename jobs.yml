@@ -3,6 +3,7 @@ jobs:
     type: manifest
     steps:
       - GET: gke-dockimg33
+      - GET: rsc2-jun17
       
 
   - name: gke-vr-job45
