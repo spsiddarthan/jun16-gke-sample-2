@@ -1,5 +1,5 @@
 resources:
-  - name: gke-dockimg33
+  - name: gke-dockimg33-12
     type: image
     integration: docker-int
     source:
